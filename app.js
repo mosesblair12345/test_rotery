@@ -1,9 +1,9 @@
 const express = require("express");
 const port = 3000
 const app= express();
-
-app.post("/rotery",(req,res)=>{
-    const{
+app.use(express.json());
+app.post("/rotary",(req,res)=>{
+    const {
     sessionId,
     serviceCode,
     phoneNumber,
