@@ -15,7 +15,7 @@ app.post("/rotary",(req,res)=>{
     let response = '';
 
     if (text == '') {
-        response = `Welcome to Rotary district 9212`;
+        response = `CON Welcome to Rotary district 9212`;
     }
     res.set('Content-Type: text/plain');
     res.send(response)
